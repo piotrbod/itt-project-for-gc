@@ -1,0 +1,79 @@
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\CreditCard.dll.config
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\CreditCard.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\CreditCard.pdb
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\Antlr3.Runtime.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\Newtonsoft.Json.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Net.Http.Formatting.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Helpers.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Http.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Http.WebHost.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Mvc.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Optimization.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Razor.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.WebPages.Deployment.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.WebPages.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.WebPages.Razor.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\WebGrease.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\Newtonsoft.Json.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Net.Http.Formatting.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Helpers.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Http.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Http.WebHost.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Mvc.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Optimization.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.Razor.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.WebPages.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.WebPages.Deployment.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\System.Web.WebPages.Razor.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\Antlr3.Runtime.pdb
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\obj\Debug\CreditCard.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\obj\Debug\CreditCard.pdb
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\EntityFramework.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\EntityFramework.SqlServer.dll
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\EntityFramework.xml
+c:\users\mlisowski.modeva\documents\visual studio 2013\Projects\CreditCard\CreditCard\bin\EntityFramework.SqlServer.xml
+C:\Users\mlisowski.MODEVA\Documents\Visual Studio 2013\Projects\CreditCard\CreditCard\bin\MongoDB.Bson.dll
+C:\Users\mlisowski.MODEVA\Documents\Visual Studio 2013\Projects\CreditCard\CreditCard\bin\MongoDB.Driver.dll
+C:\Users\mlisowski.MODEVA\Documents\Visual Studio 2013\Projects\CreditCard\CreditCard\bin\MongoDB.Bson.xml
+C:\Users\mlisowski.MODEVA\Documents\Visual Studio 2013\Projects\CreditCard\CreditCard\bin\MongoDB.Driver.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\CreditCard.dll.config
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\CreditCard.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\CreditCard.pdb
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\Antlr3.Runtime.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\EntityFramework.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\EntityFramework.SqlServer.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\Microsoft.Web.Infrastructure.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\MongoDB.Bson.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\MongoDB.Driver.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\Newtonsoft.Json.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Net.Http.Formatting.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Helpers.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Http.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Http.WebHost.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Mvc.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Optimization.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Razor.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.WebPages.Deployment.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.WebPages.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.WebPages.Razor.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\WebGrease.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\EntityFramework.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\EntityFramework.SqlServer.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\MongoDB.Bson.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\MongoDB.Driver.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\Newtonsoft.Json.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Net.Http.Formatting.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Helpers.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Http.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Http.WebHost.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Mvc.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Optimization.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.Razor.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.WebPages.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.WebPages.Deployment.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\System.Web.WebPages.Razor.xml
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\bin\Antlr3.Runtime.pdb
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\obj\Debug\CreditCard.csprojResolveAssemblyReference.cache
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\obj\Debug\CreditCard.dll
+D:\X_500GB\szkola\10-semester-masters\software\CA1\CreditCard_v0\CreditCard\obj\Debug\CreditCard.pdb
