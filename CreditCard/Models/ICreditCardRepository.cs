@@ -8,7 +8,9 @@ namespace CreditCard.Models
 {
     interface ICreditCardRepository
     {
-        IEnumerable<CreditCardsAll> GetAllCards();
-        IEnumerable<CreditCardSingle> GetSingleCard();
+        IEnumerable<CreditCardItem> GetAllCards();
+        CreditCardItem GetCardById(string id);
+        CreditCardItem GetCardByNumber(string number);
+        CreditCardItem AddCard(CreditCardItem item);
     }
 }

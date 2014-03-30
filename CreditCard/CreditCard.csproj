@@ -146,15 +146,13 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Controllers\CreditCardsAllController.cs" />
-    <Compile Include="Controllers\CreditCardSingleController.cs" />
+    <Compile Include="Controllers\CreditCardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="CreditCardApp\Models\CreditCardContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\CreditCardSingle.cs" />
-    <Compile Include="Models\CreditCardsAll.cs" />
+    <Compile Include="Models\CreditCardItem.cs" />
     <Compile Include="Models\CreditCardRepository.cs" />
     <Compile Include="Models\ICreditCardRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -19,9 +19,7 @@ namespace CreditCardApp.Models
         {
         }
 
-        public System.Data.Entity.DbSet<CreditCard.Models.CreditCardsAll> CreditCardItems { get; set; }
-
-        public System.Data.Entity.DbSet<CreditCard.Models.CreditCardSingle> CreditCardSingles { get; set; }
+        public System.Data.Entity.DbSet<CreditCard.Models.CreditCardItem> CreditCardItems { get; set; }
     
     }
 }

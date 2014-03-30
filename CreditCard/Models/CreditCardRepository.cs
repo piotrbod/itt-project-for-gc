@@ -26,31 +26,36 @@ namespace CreditCard.Models
             _client = new MongoClient(connection);
             _server = _client.GetServer();
             _database = _server.GetDatabase("Customers");
-            _creditCards = _database.GetCollection("CreditCards");
+            _creditCards = _database.GetCollection("CreditCard");
 
             // Reset database and add some default entries 
             _creditCards.RemoveAll();
             for (int index = 1; index < 5; index++)
             {
-                CreditCardsAll card = new CreditCardsAll
+                CreditCardItem card = new CreditCardItem
                 {
-                    Number = string.Format("{0}", index)
+                    Number = string.Format("{0}{0}{0}", index)
                 };
                 AddCard(card);
             }
         }
 
-        public IEnumerable<CreditCardsAll> GetAllCards()
+        public IEnumerable<CreditCardItem> GetAllCards()
         {
-            return _creditCards.FindAllAs<CreditCardsAll>();
+            return _creditCards.FindAllAs<CreditCardItem>();
         }
 
-        public IEnumerable<CreditCardSingle> GetSingleCard()
+        public CreditCardItem GetCardById(string id)
         {
-            return _creditCards.FindOneAs<CreditCardSingle>();
+            IMongoQuery query = Query.EQ("_id", id);
+            return _creditCards.FindOneAs<CreditCardItem>(query);
         }
-
-        public CreditCardsAll AddCard(CreditCardsAll item)
+        public CreditCardItem GetCardByNumber(string number)
+        {
+            IMongoQuery query = Query.EQ("Number", number);
+            return _creditCards.FindOneAs<CreditCardItem>(query);
+        }
+        public CreditCardItem AddCard(CreditCardItem item)
         {
             item.Id = ObjectId.GenerateNewId().ToString();
             _creditCards.Insert(item);
