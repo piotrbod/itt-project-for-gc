@@ -15,7 +15,7 @@ namespace CreditCard.Controllers
 {
     public class CreditCardController : ApiController
     {
-        private static readonly CreditCardRepository _cards = new CreditCardRepository("mongodb://rest-user:R35t123@172.16.76.108/Customers");
+        private static readonly CreditCardRepository _cards = new CreditCardRepository("mongodb://rest-user:R35t123@54.247.178.80/Customers");
 
         // GET api/CreditCard
         public IEnumerable<CreditCardItem> GetAllCards()
