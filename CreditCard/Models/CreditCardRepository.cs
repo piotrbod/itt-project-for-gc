@@ -29,7 +29,8 @@ namespace CreditCard.Models
             _creditCards = _database.GetCollection("CreditCard");
 
             // Reset database and add some default entries 
-            _creditCards.RemoveAll();
+            //_creditCards.RemoveAll();
+            /*
             for (int index = 1; index < 5; index++)
             {
                 CreditCardItem card = new CreditCardItem
@@ -37,7 +38,7 @@ namespace CreditCard.Models
                     Number = string.Format("{0}{0}{0}", index)
                 };
                 AddCard(card);
-            }
+            }*/
         }
 
         public IEnumerable<CreditCardItem> GetAllCards()
@@ -61,6 +62,26 @@ namespace CreditCard.Models
             _creditCards.Insert(item);
 
             return item;
+        }
+
+        public bool RemoveCard(string id)
+        {
+            IMongoQuery query = Query.EQ("_id", id);
+            SafeModeResult result = _creditCards.Remove(query);
+
+            return result.DocumentsAffected == 1;
+
+        }
+
+        public bool UpdateCard(string id, CreditCardItem item)
+        {
+            IMongoQuery query = Query.EQ("_id", id);
+            IMongoUpdate update = Update
+                .Set("Number", item.Number)
+                .Set("RiskLevel", item.RiskLevel);
+            SafeModeResult result = _creditCards.Update(query, update);
+
+            return result.UpdatedExisting;
         }
     }
 }

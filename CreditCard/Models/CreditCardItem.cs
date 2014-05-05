@@ -11,5 +11,7 @@ namespace CreditCard.Models
         [BsonId]
         public string Id { get; set; }
         public string Number { get; set; }
+
+        public int RiskLevel { get; set; }
     }
 }

@@ -12,5 +12,7 @@ namespace CreditCard.Models
         CreditCardItem GetCardById(string id);
         CreditCardItem GetCardByNumber(string number);
         CreditCardItem AddCard(CreditCardItem item);
+        bool RemoveCard(string id);
+        bool UpdateCard(string id, CreditCardItem item);
     }
 }

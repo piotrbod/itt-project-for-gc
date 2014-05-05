@@ -34,5 +34,52 @@ namespace CreditCard.Controllers
         {
             return _cards.GetCardByNumber(number);
         }
+
+        // POST api/CreditCard
+        public CreditCardItem AddCard(CreditCardItem value)
+        {
+            // check if given RiskValue is in range
+            if (value.RiskLevel < 1 || value.RiskLevel > 3)
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            // check if card number was given
+            if (string.IsNullOrEmpty(value.Number))
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+
+            CreditCardItem card = _cards.AddCard(value);
+
+            return card;
+        }
+
+        // DELETE api/CreditCard/{id}
+        public void Delete(string id)
+        {
+            if (!_cards.RemoveCard(id))
+            {
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
+        }
+
+        // POST api/CreditCard/{id}
+        public void Update(string id, CreditCardItem value)
+        {
+            // check if given RiskValue is in range
+            if (value.RiskLevel < 1 || value.RiskLevel > 3)
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            // check if card number was given
+            if (string.IsNullOrEmpty(value.Number))
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            if (!_cards.UpdateCard(id, value))
+            {
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
+        }
     }
 }
